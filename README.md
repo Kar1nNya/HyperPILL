@@ -46,4 +46,4 @@ Tips:本项目实现几乎全程 VibeCoding, 人工对素材和UI进行处理
 - OppoPods (by Leaf-lsgtky)：https://github.com/Leaf-lsgtky/OppoPods
 - HyperPods：https://github.com/Art-Chen/HyperPods
 - Miuix：https://github.com/compose-miuix-ui/miuix
-- LibXposed API：https://github.com/LSPosed/LibXposed
+- LibXposed API：https://github.com/libxposed/api
