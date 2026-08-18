@@ -1,6 +1,6 @@
 # HyperPILL
 
-HyperPILL 是一个 LSPosed 模块，用于让 Moondrop Pil 耳机适配小米 HyperOS
+HyperPILL 是一个 LSPosed 模块，用于让 Moondrop Pill 耳机适配小米 HyperOS 互联
 
 Tips:本项目实现几乎全程 VibeCoding, 人工对素材和UI进行处理
 没有足够的资源测试其余SKU的可用性, 如别的SKU存在问题可以尝试通过AI修复, 仓库提供了Agent.md
@@ -22,8 +22,8 @@ Tips:本项目实现几乎全程 VibeCoding, 人工对素材和UI进行处理
 
 ## 环境要求
 
-- Android 15+
-- 小米 HyperOS
+- Android 15+ （Xiaomi-15）
+- 小米 HyperOS 3
 - LSPosed API 102+
 
 ## 支持设备
@@ -35,7 +35,7 @@ Tips:本项目实现几乎全程 VibeCoding, 人工对素材和UI进行处理
 | Pill Gotoh Hitori | `fb36c2bb-845d-4e0a-9b83-193b046bc6cb` |
 | Pill Ijichi Nijika | `91e6febd-d61b-4849-9c0f-5d4e9627700d` |
 | Pill Yamada Ryo | `655903e7-046f-49d8-be63-bbadb3ea7881` |
-| Pill Kita Ikuyo | `42b775b3-2781-47f2-95b1-86ef7de4f9bd` |
+|✅（测试平台） Pill Kita Ikuyo | `42b775b3-2781-47f2-95b1-86ef7de4f9bd` |
 | PANDAER Open Air Pill | `3795b453-41f8-4f7b-aaa8-2709481a2f91` |
 | LAPLACE-OBA-Ⅱ | `0767fc45-888d-4e99-b81d-c0566a42b4a2` |
 
