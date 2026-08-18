@@ -282,7 +282,7 @@ Product matching is in `app/src/main/java/com/karin/hyperpill/pods/PillProduct.k
 - OppoPods (by Leaf-lsgtky): https://github.com/Leaf-lsgtky/OppoPods
 - HyperPods: https://github.com/Art-Chen/HyperPods
 - Miuix: https://github.com/compose-miuix-ui/miuix
-- LibXposed API: https://github.com/LSPosed/LibXposed
+- LibXposed API: https://github.com/libxposed/api
 
 ## 许可证
 GNU General Public License v3.0
