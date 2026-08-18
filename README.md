@@ -5,7 +5,7 @@ HyperPILL 是一个 LSPosed 模块，用于让 Moondrop Pill 耳机适配小米 
 Tips:本项目实现几乎全程 VibeCoding, 人工对素材和UI进行处理
 没有足够的资源测试其余SKU的可用性, 如别的SKU存在问题可以尝试通过AI修复, 仓库提供了Agent.md
 
-# 截图
+## 截图
 
 <img width="320" alt="Screenshot 1" src="https://github.com/user-attachments/assets/3a6fbea4-6889-47f3-8faa-46dfe6fe75e4" />
 <img width="320" alt="Screenshot 2" src="https://github.com/user-attachments/assets/f116bddc-6212-4eb4-a663-430938cc245f" />
