@@ -1,7 +1,14 @@
+import java.io.File
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
 }
+
+val signingProps: Properties? = rootProject.file("signing.properties")
+    .takeIf { it.exists() }
+    ?.let { file -> Properties().apply { load(file.inputStream()) } }
 
 android {
     namespace = "com.karin.hyperpill"
@@ -17,10 +24,27 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        create("release") {
+            if (signingProps != null) {
+                val storePath = signingProps.getProperty("storeFile")
+                storeFile = rootProject.file(storePath)
+                storePassword = signingProps.getProperty("storePassword")
+                keyAlias = signingProps.getProperty("keyAlias")
+                keyPassword = signingProps.getProperty("keyPassword")
+            }
+        }
+    }
+
     buildTypes {
         release {
             optimization {
                 enable = false
+            }
+            signingConfig = if (signingProps != null) {
+                signingConfigs.getByName("release")
+            } else {
+                signingConfigs.getByName("debug")
             }
         }
     }

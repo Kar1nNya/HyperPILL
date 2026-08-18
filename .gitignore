@@ -11,8 +11,13 @@ build/
 # Local / machine-specific
 local.properties
 signing.properties
+keystore.properties
 *.keystore
 *.jks
+*.p12
+*.pfx
+*.pem
+*.key
 
 # Build outputs
 *.apk
