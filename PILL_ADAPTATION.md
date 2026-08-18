@@ -100,7 +100,7 @@ RFCOMM:   FF 01 00 04 00 1D 1A 01 00 01 02 03
 
 HyperPILL 已实现读取：固件版本（命令 5）、Variant（命令 4）、序列号（命令 3）、左右耳 SN（命令 20/21）。
 
-Pill 家族产品身份表（来自 `products/all`）：
+Pill 身份表（来自 `products/all`）：
 
 - `MOONDROP Pill`
 - `MOONDROP PILL`（name=`PILL`）
@@ -112,10 +112,3 @@ Pill 家族产品身份表（来自 `products/all`）：
 - `LAPLACE-OBA-Ⅱ` — 重返未来：1999 联名
 
 App 通过蓝牙广播名匹配产品表 `name`，从而确定产品 UUID 与对应资源。
-
-## 待验证 / 后续
-
-- 真机连接 Pill 后确认帧格式与电量命令是否按预期工作
-- 若 Pill 不支持三路电量，可按 `支持的电池` 响应裁剪
-- 若实际音量 raw 范围不是 0~100，需要按设备响应调整滑块映射
-- HyperOS Focus Island / 系统设置集成尚未实现
